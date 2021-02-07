@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/marginSmall">
+
+    <TextView
+        android:id="@+id/tvMoviesType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_latest_movies"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSizeSubTitle"
+        android:layout_marginStart="@dimen/marginSmallest"
+        android:fontFamily="@font/marko_one_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvViewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginSmall"
+        android:text="@string/txt_view_all"
+        android:textColor="@color/colorBlue"
+        android:textSize="@dimen/textSizeSubTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvMoviesType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvMoviesType" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMovies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginSmallest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMoviesType" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

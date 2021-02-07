@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingSmallest">4dp</dimen>
+    <dimen name="paddingSmall">8dp</dimen>
+    <dimen name="paddingMedium">16dp</dimen>
+    <dimen name="paddingHigh">24dp</dimen>
+    <dimen name="marginSmallest">4dp</dimen>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="marginMedium">16dp</dimen>
+    <dimen name="marginHigh">24dp</dimen>
+    <dimen name="search_height">48dp</dimen>
+    <dimen name="textSizeSmall">12sp</dimen>
+    <dimen name="textSizeNormal">14sp</dimen>
+    <dimen name="textSizeSubTitle">16sp</dimen>
+    <dimen name="textSizeTitle">18sp</dimen>
+    <dimen name="textSizeLarge">24sp</dimen>
+    <dimen name="imageIconSize">96dp</dimen>
+    <dimen name="movieItemWidth">120dp</dimen>
+    <dimen name="moviesItemHeight">180dp</dimen>
+    <dimen name="toolbarIconHeight">36dp</dimen>
+    <dimen name="toolbarIconWidth">96dp</dimen>
+    <dimen name="movieImageHeight">240dp</dimen>
+</resources>
